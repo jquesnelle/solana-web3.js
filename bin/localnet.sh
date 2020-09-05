@@ -87,6 +87,7 @@ up)
       --publish 8899:8899
       --publish 8900:8900
       --publish 9900:9900
+      --publish 8003:8003/udp
       --tty
       --ulimit "nofile=500000"
       --env "RUST_LOG=$RUST_LOG"
